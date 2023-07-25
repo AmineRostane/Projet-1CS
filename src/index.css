@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100&family=Encode+Sans+Semi+Expanded:wght@200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardInfo{
+    @apply opacity-0 absolute bottom-0 pb-5 bg-gradient-to-t from-black h-full  w-full hover:opacity-100
+}
+
+.cardTitle{
+    @apply block absolute bottom-10 font-extrabold font-[Gilroy] text-left text-white ml-2 mb-1 text-[20px]
+}
+ .cardLocation{
+     @apply block absolute bottom-5 font-[Gilroy] text-left font-extrabold text-white text-opacity-80 ml-2 text-[12px]
+ }
+
